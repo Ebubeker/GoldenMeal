@@ -26,8 +26,8 @@ const MenuList = () => {
                 <p className={cardTitle}>EIGHT-COURSE MENU</p>
                 <p className={cardPara}>The eight-course menu is available at lunch & dinner</p>
                 <div className={aligningMenu}>
-                    {eightCourseMenu.map((menu)=>(
-                        <div className={singleMenu}>
+                    {eightCourseMenu.map((menu, index)=>(
+                        <div key={index} className={singleMenu}>
                             <p className={menuTitle}>{menu.title}</p>
                             <p className={menuContain}>{menu.contain}</p>
                         </div>
