@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Footer = () => {
 
-    const menu = [{name: 'Home', link: ""}, {name: 'Menu', link: "Menu"}, {name: 'Reservation', link: "Reservation"}, {name: 'Online Service', link: "OnlineServ"}, {name: 'Job', link: "Jobs"}, {name: 'About', link: "About"}, {name: 'Contact', link: "Contact"}];
+    const menu = [{name: 'Home', link: " "}, {name: 'Menu', link: "Menu"}, {name: 'Reservation', link: "Reservation"}, {name: 'Online Service', link: "OnlineServ"}, {name: 'Job', link: "Jobs"}, {name: 'About', link: "About"}, {name: 'Contact', link: "Contact"}];
     const networks = [{
         icon:faTwitter,
         text: "Twitter"
