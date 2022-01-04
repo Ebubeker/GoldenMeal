@@ -1,0 +1,17 @@
+import React from 'react'
+import {container, text, header} from './IntroductionSection.module.css';
+
+const IntroductionSection = () => {
+    return (
+        <div>
+            <div className={container}>
+                <h1 className={header}>Introduction</h1>
+                <div className={text}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At non, ex debitis perferendis exercitationem placeat facilis cumque quia tenetur quos, dolor laborum nisi porro excepturi autem pariatur laudantium illum dolore neque, dignissimos cum illo ipsam. Deleniti tempora harum natus iste quod nobis repellendus sit laudantium quos iure ut voluptatem beatae consequatur, fuga voluptatum, corrupti exercitationem sunt assumenda recusandae earum dolorum, qui officiis quidem! Itaque eaque temporibus nam adipisci quo reprehenderit corporis qui magni totam cum corrupti, blanditiis fugiat neque eveniet, aspernatur laborum, alias mollitia veniam. Nisi voluptate nam, aut adipisci eius vel maxime. A ab similique, minus doloribus aliquid molestiae? <br /><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quam delectus sed saepe omnis quasi error esse eos animi, cupiditate ea neque alias dicta placeat sequi porro repellat reiciendis quos. Harum fugit aliquid perferendis ea dolore ab aperiam eum iusto nostrum et aspernatur, at vero beatae repudiandae cumque distinctio cum aut illo veritatis quaerat? Debitis voluptatum harum blanditiis ut aut ab, minus id aliquam mollitia dolores. Ullam debitis vel repellendus sed. Numquam ipsum quas dolorum? Magnam culpa voluptatibus laboriosam adipisci accusantium aliquam nihil exercitationem, unde tenetur, voluptate quasi modi temporibus quas vitae eveniet facilis autem repellendus voluptas recusandae? Repellendus, minima hic consequatur harum mollitia voluptatum minus placeat distinctio dolorem fugit sed nemo. Voluptas non saepe obcaecati quo est accusantium architecto vitae culpa. Excepturi, molestias officia. Officiis, eveniet nesciunt culpa delectus vitae voluptatibus ipsa. Fuga totam, excepturi tempora aperiam dicta a vero, quam eveniet similique, labore expedita distinctio autem officiis. Iste voluptatibus sapiente ea expedita accusantium assumenda ut ipsa sint reprehenderit debitis earum quo deleniti magnam, consectetur veniam, est facere cumque et! Omnis error quas id nostrum distinctio eaque vero, illo odio nesciunt totam facere, quis labore nisi laudantium minima consectetur dolor quisquam fuga ratione. Vel autem, quos earum nesciunt delectus eius eaque aliquid corrupti veniam ducimus, inventore sit porro magnam tempora. Quam inventore laborum cum iure quia. Ipsam, deleniti! Eligendi, ab quidem. Dolorum incidunt facilis harum iste ducimus inventore blanditiis quisquam molestias, dolores eum aliquam aperiam atque mollitia, velit sequi ad provident ratione id ipsam impedit, non cum a nobis ipsum. Voluptatum suscipit blanditiis, eum, cupiditate dolorem quo tempore totam sapiente saepe dolorum non nulla consequuntur consectetur in error assumenda laudantium velit aspernatur tenetur! Dolor sunt exercitationem quaerat provident, nihil impedit laboriosam officia! Maxime quis ullam nostrum dicta dolorum necessitatibus veniam debitis rerum repellendus aspernatur, incidunt, voluptates placeat reiciendis illum.</p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default IntroductionSection

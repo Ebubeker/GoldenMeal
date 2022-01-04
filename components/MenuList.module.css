@@ -1,0 +1,42 @@
+.menuCard {
+    background-color: rgb(227, 230, 243);
+    padding: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 80px;
+}
+
+.cardTitle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(32, 32, 32);
+    margin: 10px;
+}
+
+.cardPara {
+    text-align: center;
+    color: rgb(92, 92, 92);
+    margin-bottom: 10px;
+}
+
+.aligningMenu {
+    text-align: center;
+}
+
+.singleMenu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menuTitle {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(32, 32, 32);
+    margin-bottom: 0;
+}
+
+.menuContain {
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    margin-top: 0;
+}

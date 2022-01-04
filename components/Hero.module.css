@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&display=swap');
+
+.section {
+    background-image: url('https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content .brand {
+    margin: 0;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: rgb(192, 115, 51);
+    text-align: center;
+}
+
+
+.content .quote {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: rgb(207, 148, 99);
+    width: 50%;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.content .heroBtn {
+    color: rgb(219, 157, 107);
+    background-color: transparent;
+    border: 1px solid rgb(219, 157, 107);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.content .heroBtn:hover {
+    background-color: rgb(219, 157, 107);
+    color: #fff;
+}
+
+.btnCont {
+    text-align: center;
+}
+
+@media (max-width: 703px) {
+    .content .brand {
+        font-size: 60px;
+    }
+
+    .content .quote {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 469px) {
+    .content .quote {
+        width: 70%;
+    }
+}

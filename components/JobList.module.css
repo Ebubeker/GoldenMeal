@@ -1,0 +1,48 @@
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box {
+    padding: 10px;
+    border: 1px solid rgb(179, 179, 179);
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.content {
+    width: 90%;
+}
+
+.content p {
+    margin: 0;
+}
+
+.applyBtn {
+    background-color: rgb(219, 157, 107);
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.applyBtn:hover {
+    background-color: rgb(204, 142, 91);
+}
+
+.jobTitle {
+    font-weight: bold;
+}
+
+.jobDesc {
+    color: rgb(102, 102, 102);
+}
+
+@media (max-width: 823px) {
+    .jobDesc {
+        font-size: 13px;
+    }
+
+}

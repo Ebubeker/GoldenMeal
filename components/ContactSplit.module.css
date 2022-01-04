@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.section {
+    height: 600px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    margin-top: 80px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 40px;
+}
+
+.textLeft {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photoRight {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1590233033231-a369e52b38de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactTitle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.content input,
+.content textarea {
+    padding: 10px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    outline-color: rgba(219, 157, 107, 0.274);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.content textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contactBtn {
+    background-color: rgb(219, 157, 107);
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+    width: 70%;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.contactBtn:hover {
+    background-color: rgb(192, 131, 80);
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 60%;
+    padding: 20px;
+}
+
+.highl {
+    font-weight: bold;
+}
+
+@media (max-width: 909px) {
+    .section {
+        display: block;
+    }
+
+    .textLeft {
+        width: 100%;
+        height: 50%;
+    }
+
+    .photoRight {
+        width: 100%;
+        height: 50%;
+    }
+
+    .contactTitle {
+        font-size: 20px;
+    }
+
+    .content input,
+    .content textarea {
+        padding: 7px;
+        width: 70%;
+        margin-bottom: 7px;
+    }
+
+    .content textarea {
+        height: 50px;
+    }
+}
+
+@media (max-width: 621px) {
+    .overlay p{
+        font-size: 13px;
+    }
+}

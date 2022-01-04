@@ -1,0 +1,76 @@
+.footer {
+    background-color: rgba(219, 157, 107, 0.822);
+    margin-bottom: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .menus,
+.footer .social,
+.footer .subscription {
+    width: 33.3%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h3 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .menus .menuitem {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 25px;
+}
+
+.footer .social p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form input {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.form .submit {
+    background-color: rgb(131, 70, 21);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.form .submit:hover {
+    background-color: rgb(161, 95, 41);
+}
+
+@media (max-width: 953px) {
+    .footer {
+        display: block;
+    }
+
+    .footer .menus,
+    .footer .social,
+    .footer .subscription {
+        width: 100%;
+    }
+}

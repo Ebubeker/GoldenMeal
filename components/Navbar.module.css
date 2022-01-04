@@ -1,0 +1,172 @@
+.content {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: transparent;
+    z-index: 4;
+}
+
+.icon {
+    /* background-color: rgba(255, 255, 255, 0.589);
+    color: rgb(210, 147, 30);
+     */
+    background-color: var(--beforeHoverNavbar);
+    padding: 15px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.iconicon {
+    height: 25px;
+    transition: all .3s ease-in-out;
+    color: rgb(59, 59, 59);
+}
+
+.iconicon:hover {
+    color: rgb(8, 8, 8);
+}
+
+.icon:hover {
+    /* background-color: rgba(255, 255, 255, 0.829); */
+    background-color: var(--afterHoverNavbar);
+}
+
+.icon:hover .iconicon {
+    animation: rotate .3s;
+}
+
+.reservation {
+    /* background-color: rgba(255, 255, 255, 0.589); */
+    background-color: var(--beforeHoverNavbar);
+    padding: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.reservation p {
+    margin: 0;
+    border: 1px solid rgb(59, 59, 59);
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    transition: all .3s ease-in-out;
+}
+
+.reservation:hover {
+    background-color: var(--afterHoverNavbar);
+}
+
+.reservation p {
+    color: black;
+    border-color: black;
+}
+
+.openMenu {
+    background-color: rgb(219, 157, 107);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    animation: open .3s;
+    z-index: 5;
+}
+
+.closeMenu {
+    background-color: rgb(219, 157, 107);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    animation: close .3s;
+    z-index: 5;
+
+}
+
+.navItem {
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navLinks {
+    width: 100%;
+}
+
+.closeIcon {
+    position: absolute;
+    width: 25px;
+    top: 30px;
+    left: 40px;
+    cursor: pointer;
+    color: rgb(59, 59, 59);
+    transition: all .3s ease-in-out;
+    animation: rotate .5s;
+}
+
+.closeIcon:hover {
+    color: black;
+    animation: rotate .3s;
+}
+
+.brandName {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes open {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes close {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@media (max-width: 953px) {
+    .openMenu {
+        width: 100%;
+    }
+
+    .closeMenu {
+        width: 100%;
+    }
+}
