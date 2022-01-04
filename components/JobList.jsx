@@ -5,8 +5,8 @@ import { jobs } from '../staticData/jobs';
 const JobList = () => {
     return (
         <div className={container}>
-            {jobs.map((job)=>(
-                <div className={box}>
+            {jobs.map((job, index)=>(
+                <div key={index} className={box}>
                     <div className={content}>
                         <p className={jobTitle}>{job.name}</p>
                         <p className={jobDesc}>{job.description}</p>
