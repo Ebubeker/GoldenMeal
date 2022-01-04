@@ -37,7 +37,7 @@ const Footer = () => {
             <div className={social}>
                 <h3>Social Network</h3>
                 {networks.map((net)=>(
-                    <Link key={net.text} href={net.text}>
+                    <Link key={net.text} href={`/${net.text}`}>
                         <p><FontAwesomeIcon className={icon} icon={net.icon}/> | {net.text}</p>
                     </Link>
                 ))}
