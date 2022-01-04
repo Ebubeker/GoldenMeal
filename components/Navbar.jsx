@@ -47,7 +47,7 @@ const Navbar = () => {
                         if(men.name === "Home"){
                             return(
                                 <div onClick={close}>
-                                    <Link key={men.name} href={`/`}>
+                                    <Link key={men.name} passhref={`/`}>
                                         <p className={navItem}>{men.name}</p>
                                     </Link>
                                 </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                         }else{
                             return(
                                 <div onClick={close}>
-                                    <Link key={men.name} href={`/${men.link}`}>
+                                    <Link key={men.name} passhref={`/${men.link}`}>
                                         <p className={navItem}>{men.name}</p>
                                     </Link>
                                 </div>
