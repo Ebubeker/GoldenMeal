@@ -18,6 +18,7 @@ const OnlineServ = () => {
       <div className={productSection}>
         {products.map((prod) => (
           <OnlineProd
+            key={prod.url}
             url={prod.url}
             title={prod.title}
             desc={prod.description}
