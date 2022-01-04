@@ -29,17 +29,21 @@ const Footer = () => {
             <div className={menus}>
                 <h3>Menus</h3>
                 {menu.map((men)=>(
-                    <Link href={`/${men.link}`}>
-                        <p  key={men.name} className={menuitem}>{men.name}</p>
-                    </Link>
+                    <div key={men.name} >
+                        <Link href={`/${men.link}`}>
+                            <p className={menuitem}>{men.name}</p>
+                        </Link>
+                    </div>
                 ))}
             </div>
             <div className={social}>
                 <h3>Social Network</h3>
                 {networks.map((net)=>(
-                    <Link href={`/${net.text}`}>
-                        <p key={net.text} ><FontAwesomeIcon className={icon} icon={net.icon}/> | {net.text}</p>
-                    </Link>
+                    <div key={net.name}>
+                        <Link href={`/${net.text}`}>
+                            <p><FontAwesomeIcon className={icon} icon={net.icon}/> | {net.text}</p>
+                        </Link>
+                    </div>
                 ))}
             </div>
             <div className={subscription}>

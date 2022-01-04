@@ -43,7 +43,7 @@ const MenuList = () => {
                 <p className={cardPara}>The six-course menu is available at lunch & dinner</p>
                 <div className={aligningMenu}>
                     {eightCourseMenu.map((menu, index)=>(
-                        <div key={menu.index} className={singleMenu}>
+                        <div key={index} className={singleMenu}>
                             <p className={menuTitle}>{menu.title}</p>
                             <p className={menuContain}>{menu.contain}</p>
                         </div>
@@ -58,8 +58,8 @@ const MenuList = () => {
                 <p className={cardTitle}>DRINKS MENU</p>
                 <p className={cardPara}>The eight-course menu is available at lunch & dinner</p>
                 <div className={aligningMenu}>
-                    {eightCourseMenu.map((menu)=>(
-                        <div key={menu.index} className={singleMenu}>
+                    {eightCourseMenu.map((menu, index)=>(
+                        <div key={index} className={singleMenu}>
                             <p className={menuTitle}>{menu.title}</p>
                             <p className={menuContain}>{menu.contain}</p>
                         </div>
