@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import {prodCard, cardCont, prodTitle, prodDesc, hoverItem, prodPrice, prop, orderBtn} from './OnlineProd.module.css';
+import {prodCard, cardCont, prodTitle, prodDesc, hoverItem, prodPrice, prop, orderBtn, img} from './OnlineProd.module.css';
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import Image from 'next/image';
@@ -19,7 +19,7 @@ const OnlineProd = ({url, title, desc, incl, loc, price}) => {
     return (
         <div onMouseOver={onhover} onMouseLeave={onleave} className={prodCard}>
             <div className={cardCont}>
-                <Image src={url} alt={url}/>
+                <div className={img} style={{backgroundImage: `url("${url}")`}}/>
                 <p className={prodTitle}>{title}</p>
                 <p className={prodDesc}>{desc}</p>
             </div>
