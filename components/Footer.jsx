@@ -30,7 +30,7 @@ const Footer = () => {
                 <h3>Menus</h3>
                 {menu.map((men)=>(
                     <div key={men.name} >
-                        <Link passhref href={`/${men.link}`}>
+                        <Link passhref={`/${men.link}`} href={`/${men.link}`}>
                             <p className={menuitem}>{men.name}</p>
                         </Link>
                     </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <h3>Social Network</h3>
                 {networks.map((net)=>(
                     <div key={net.name}>
-                        <Link passhref href={`/${net.text}`}>
+                        <Link passhref={`/${net.name}`} href={`/${net.name}`}>
                             <p><FontAwesomeIcon className={icon} icon={net.icon}/> | {net.text}</p>
                         </Link>
                     </div>

@@ -19,7 +19,7 @@ const OnlineProd = ({url, title, desc, incl, loc, price}) => {
     return (
         <div onMouseOver={onhover} onMouseLeave={onleave} className={prodCard}>
             <div className={cardCont}>
-                <Image src={url}/>
+                <Image src={url} alt={url}/>
                 <p className={prodTitle}>{title}</p>
                 <p className={prodDesc}>{desc}</p>
             </div>
