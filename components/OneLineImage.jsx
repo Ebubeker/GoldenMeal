@@ -5,7 +5,7 @@ import Image from 'next/image';
 const OneLineImage = ({url}) => {
     return (
         <div className={imagebox}>
-            <Image src={url} alt={url} />
+            <Image src={url}  />
         </div>
     )
 }
